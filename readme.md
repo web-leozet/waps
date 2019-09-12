@@ -1,7 +1,7 @@
-Startup HTML template based on Gulp & Bootstrap 4
+п»їStartup HTML template based on Gulp & Bootstrap 4
 
-Инициализация:
+РРЅРёС†РёР°Р»РёР·Р°С†РёСЏ:
 node_modules-
 npm i
-запуск в браузере
+Р·Р°РїСѓСЃРє РІ Р±СЂР°СѓР·РµСЂРµ
 gulp watch
