@@ -1,0 +1,111 @@
+// @import "reset_my" // reset.sass
+@import "vars"
+@import "fonts"
+@import "libs"
+
+
+
+
+
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+body 
+	min-width: 320px
+	position: relative
+	font-family: $default-font
+	overflow-x: hidden
+	color: $text
+	input, textarea 
+		border: #666 1px solid
+		outline: none
+		&:focus:required:invalid 
+			border-color: red
+		&:required:valid 
+			border-color: green
+
+
+
+.img-responsive 
+	display: block
+	max-width: 100%
+	height: auto
+	&.img-width 
+		width: 100%
+
+b, strong 
+	font-weight: bold
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// .scroll-to-top start
+
+.scroll-to-top
+	background: #363636
+	font: normal normal normal 14px/1 FontAwesome
+	background: rgba(100, 100, 100, 0.4)
+	color: #FFF
+	bottom: 50vh
+	cursor: pointer
+	display: none
+	position: fixed
+	right: 20px
+	z-index: 999
+	font-size: 16px
+	text-align: center
+	line-height: 35px
+	width: 35px
+	-webkit-transition: background-color 0.3s linear
+	-moz-transition: background-color 0.3s linear
+	-o-transition: background-color 0.3s linear
+	transition: background-color 0.3s linear
+
+	&:hover
+    background: #D84315
+    opacity: .8
+    span
+    	color: red
+	span
+    height: 32px
+    background-color: rgb(33,150,243)
+    display: block
+    color: #fff
+    font-family: monospace;
+    font-size: 14px
+    font-weight: bold
+	
+.fa
+	display: inline-block
+	font: normal normal normal 14px/1 FontAwesome
+	font-size: 25px
+	text-rendering: auto
+	-webkit-font-smoothing: antialiased
+	padding-top: 5px
+    // .scroll-to-top end
+
+
+@import "media" // Always at the end
+
