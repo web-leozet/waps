@@ -5,3 +5,5 @@ node_modules----
 "npm i"
 запуск в браузере-----
 "gulp watch"
+
+Удачи))
